@@ -64,13 +64,13 @@
       "id": 6,
       "title": "T3: F6-F7 - Trust Cards y Grid de Especialidades",
       "description": "Grid de Trust Cards y Especialidades para la home de Rehace",
-      "status": "PENDING",
-      "plan_approved": false,
+      "status": "COMPLETED",
+      "plan_approved": true,
       "assigned_to": "Frontend_Content",
       "dependencies": [],
       "priority": "normal",
       "created_at": "2026-04-09T12:36:37.246218",
-      "completed_at": null
+      "completed_at": "2026-04-14T18:50:00.000000"
     },
     {
       "id": 7,

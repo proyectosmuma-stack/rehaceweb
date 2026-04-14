@@ -1,0 +1,40 @@
+{
+  "section": "trust_bar",
+  "page_id": 665,
+  "cards": [
+    {
+      "icon": "🏥",
+      "stat": "+500 Pacientes",
+      "sub": "Tratados con éxito",
+      "wp_image_id": null
+    },
+    {
+      "icon": "⭐",
+      "stat": "4.9/5 en Google",
+      "sub": "Valoración media",
+      "wp_image_id": null
+    },
+    {
+      "icon": "🧠",
+      "stat": "15 Especialistas",
+      "sub": "Equipo multidisciplinar",
+      "wp_image_id": null
+    },
+    {
+      "icon": "🏠",
+      "stat": "Terapia en Casa",
+      "sub": "Servicio a domicilio",
+      "wp_image_id": null
+    }
+  ],
+  "styles": {
+    "grid": "repeat(4,1fr)",
+    "grid_tablet": "repeat(2,1fr)",
+    "grid_mobile": "1fr",
+    "border_radius": "36px",
+    "background": "#F4F8FC",
+    "border": "1px solid rgba(1,164,190,0.15)",
+    "shadow": "0 8px 32px rgba(0,51,102,0.08)",
+    "padding": "2rem"
+  }
+}
