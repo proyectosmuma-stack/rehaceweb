@@ -1,9 +1,30 @@
 {
-  "treatment_stroke.png": { "wp_id": null, "alt": "Rehabilitación de ictus" },
-  "treatment_parkinson.png": { "wp_id": null, "alt": "Rehabilitación Parkinson" },
-  "treatment_cognitive.png": { "wp_id": null, "alt": "Rehabilitación cognitiva" },
-  "treatment_child_neuro_1775657348721.png": { "wp_id": null, "alt": "Neurorehabilitación infantil" },
-  "therapy_session_physio_1775656527885.png": { "wp_id": null, "alt": "Sesión de fisioterapia" },
-  "rehab_center_modern_1775656504951.png": { "wp_id": null, "alt": "Centro REHACE Majadahonda" },
-  "therapy_home_visit_1775659496678.png": { "wp_id": null, "alt": "Terapia a domicilio" }
+  "treatment_stroke.png": {
+    "wp_id": 753,
+    "alt": "Rehabilitación de ictus"
+  },
+  "treatment_parkinson.png": {
+    "wp_id": 754,
+    "alt": "Rehabilitación Parkinson"
+  },
+  "treatment_cognitive.png": {
+    "wp_id": 755,
+    "alt": "Rehabilitación cognitiva"
+  },
+  "treatment_child_neuro_1775657348721.png": {
+    "wp_id": 756,
+    "alt": "Neurorehabilitación infantil"
+  },
+  "therapy_session_physio_1775656527885.png": {
+    "wp_id": 757,
+    "alt": "Sesión de fisioterapia"
+  },
+  "rehab_center_modern_1775656504951.png": {
+    "wp_id": 758,
+    "alt": "Centro REHACE Majadahonda"
+  },
+  "therapy_home_visit_1775659496678.png": {
+    "wp_id": 759,
+    "alt": "Terapia a domicilio"
+  }
 }
