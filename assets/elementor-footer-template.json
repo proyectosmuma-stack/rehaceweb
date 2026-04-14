@@ -1,0 +1,367 @@
+{
+  "version": "0.4",
+  "title": "Footer REHACE",
+  "type": "footer",
+  "content": [
+    {
+      "id": "footer-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1280},
+        "height": "default",
+        "custom_height": {"unit": "px", "size": 400},
+        "background_background": "classic",
+        "background_color": "#00203D",
+        "padding": {"unit": "px", "top": 90, "right": 0, "bottom": 0, "left": 0},
+        "padding_tablet": {"unit": "px", "top": 60, "right": 20, "bottom": 0, "left": 20},
+        "padding_mobile": {"unit": "px", "top": 40, "right": 15, "bottom": 0, "left": 15},
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "footer-inner-section",
+          "elType": "section",
+          "settings": {
+            "content_width": {"unit": "px", "size": 1280},
+            "structure": "20",
+            "gap": "extended",
+            "padding": {"unit": "px", "top": 0, "right": 0, "bottom": 50, "left": 0},
+            "border_border": "solid",
+            "border_width": {"unit": "px", "top": 0, "right": 0, "bottom": 1, "left": 0},
+            "border_color": "rgba(255,255,255,0.07)"
+          },
+          "elements": [
+            {
+              "id": "footer-col-brand",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25,
+                "padding": {"unit": "px", "top": 0, "right": 40, "bottom": 0, "left": 0}
+              },
+              "elements": [
+                {
+                  "id": "footer-logo",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://rehace.es/wp-content/uploads/elementor/thumbs/logo-rehace-color-rcv0eee8zplo5nag58v86h0465dillryzgmzuhy9z4.png"
+                    },
+                    "image_size": "custom",
+                    "image_custom_dimension": {"width": 150, "height": 50},
+                    "align": "left",
+                    "space": {"unit": "px", "size": 20}
+                  }
+                },
+                {
+                  "id": "footer-desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Centro especializado en rehabilitación neurológica en Majadahonda, Madrid. Nace desde la pasión y la experiencia familiar para devolverte la libertad.",
+                    "align": "left",
+                    "text_color": "rgba(255,255,255,0.5)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Figtree",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_line_height": {"unit": "em", "size": 1.75},
+                    "_margin": {"unit": "px", "top": 0, "right": 0, "bottom": 25, "left": 0},
+                    "_margin_mobile": {"unit": "px", "top": 0, "right": 0, "bottom": 15, "left": 0}
+                  }
+                },
+                {
+                  "id": "footer-social-icons",
+                  "elType": "widget",
+                  "widgetType": "social-icons",
+                  "settings": {
+                    "social_icon_list": [
+                      {"social_icon": {"value": "fab fa-facebook-f", "library": "fa-brands"}, "text": "Facebook"},
+                      {"social_icon": {"value": "fab fa-instagram", "library": "fa-brands"}, "text": "Instagram"},
+                      {"social_icon": {"value": "fab fa-youtube", "library": "fa-brands"}, "text": "YouTube"},
+                      {"social_icon": {"value": "fab fa-linkedin-in", "library": "fa-brands"}, "text": "LinkedIn"}
+                    ],
+                    "icon_color": "custom",
+                    "icon_primary_color": "rgba(255,255,255,0.55)",
+                    "icon_secondary_color": "transparent",
+                    "icon_size": {"unit": "px", "size": 14},
+                    "icon_spacing": {"unit": "px", "size": 10},
+                    "icon_border_radius": {"unit": "%", "size": 50},
+                    "icon_border_border": "solid",
+                    "icon_border_width": {"unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1},
+                    "icon_border_color": "rgba(255,255,255,0.18)",
+                    "hover_color": "#01A4BE",
+                    "hover_primary_color": "#01A4BE",
+                    "hover_border_color": "#01A4BE"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-services",
+              "elType": "column",
+              "settings": {
+                "_column_size": 20,
+                "padding": {"unit": "px", "top": 0, "right": 20, "bottom": 0, "left": 20}
+              },
+              "elements": [
+                {
+                  "id": "footer-services-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Especialidades",
+                    "header_size": "h4",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                    "text_transform": "uppercase",
+                    "_margin": {"unit": "px", "top": 0, "right": 0, "bottom": 18, "left": 0},
+                    "_padding": {"unit": "px", "top": 0, "right": 0, "bottom": 12, "left": 0},
+                    "_background_background": "classic",
+                    "_background_color": "rgba(1,164,190,0.35)"
+                  }
+                },
+                {
+                  "id": "footer-services-list",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {"text": "Ictus y Daño Cerebral", "link": {"url": "#"}},
+                      {"text": "Parkinson", "link": {"url": "#"}},
+                      {"text": "Alzheimer y Demencias", "link": {"url": "#"}},
+                      {"text": "Esclerosis Múltiple", "link": {"url": "#"}},
+                      {"text": "TEA y TDAH (Niños)", "link": {"url": "#"}}
+                    ],
+                    "space_between": {"unit": "px", "size": 10},
+                    "icon_color": "#01A4BE",
+                    "icon_size": {"unit": "px", "size": 12},
+                    "text_color": "rgba(255,255,255,0.5)",
+                    "text_color_hover": "#02C0DD",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Figtree",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "link_inline": "yes",
+                    "show_divider": "",
+                    "icon_list_style": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-company",
+              "elType": "column",
+              "settings": {
+                "_column_size": 20,
+                "padding": {"unit": "px", "top": 0, "right": 20, "bottom": 0, "left": 20}
+              },
+              "elements": [
+                {
+                  "id": "footer-company-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Empresa",
+                    "header_size": "h4",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                    "text_transform": "uppercase",
+                    "_margin": {"unit": "px", "top": 0, "right": 0, "bottom": 18, "left": 0},
+                    "_padding": {"unit": "px", "top": 0, "right": 0, "bottom": 12, "left": 0},
+                    "_background_background": "classic",
+                    "_background_color": "rgba(1,164,190,0.35)"
+                  }
+                },
+                {
+                  "id": "footer-company-list",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {"text": "¿Cómo lo hacemos?", "link": {"url": "#"}},
+                      {"text": "¿Quiénes somos?", "link": {"url": "#"}},
+                      {"text": "Nuestro equipo", "link": {"url": "#"}},
+                      {"text": "Terapia a domicilio", "link": {"url": "#"}},
+                      {"text": "Blog", "link": {"url": "#"}}
+                    ],
+                    "space_between": {"unit": "px", "size": 10},
+                    "icon_color": "#01A4BE",
+                    "icon_size": {"unit": "px", "size": 12},
+                    "text_color": "rgba(255,255,255,0.5)",
+                    "text_color_hover": "#02C0DD",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Figtree",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "link_inline": "yes",
+                    "show_divider": "",
+                    "icon_list_style": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-contact",
+              "elType": "column",
+              "settings": {
+                "_column_size": 35,
+                "padding": {"unit": "px", "top": 0, "right": 0, "bottom": 0, "left": 20}
+              },
+              "elements": [
+                {
+                  "id": "contact-card-wrapper",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "",
+                    "content_position": "left",
+                    "_margin": {"unit": "px", "top": 0, "right": 0, "bottom": 20, "left": 0}
+                  }
+                },
+                {
+                  "id": "footer-contact-box",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "icon_box_style": "card",
+                    "icon_type": "none",
+                    "title": "Contacto",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_font_weight": "700",
+                    "text_align": "left",
+                    "box_padding": {"unit": "px", "top": 20, "right": 20, "bottom": 20, "left": 20},
+                    "box_background_background": "classic",
+                    "box_background_color": "rgba(1,164,190,0.1)",
+                    "box_border_border": "solid",
+                    "box_border_width": {"unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1},
+                    "box_border_color": "rgba(1,164,190,0.25)",
+                    "box_border_radius": {"unit": "px", "size": 20}
+                  }
+                },
+                {
+                  "id": "footer-contact-items",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><span style=\"color: #01A4BE; margin-right: 10px;\">📍</span> C/ Ejemplo 12, 28220 Majadahonda, Madrid</p><p style=\"margin-top: 12px;\"><span style=\"color: #01A4BE; margin-right: 10px;\">📞</span> <a href=\"tel:+34915481732\" style=\"color: rgba(255,255,255,0.65); text-decoration: none;\">915 481 732</a></p><p style=\"margin-top: 12px;\"><span style=\"color: #01A4BE; margin-right: 10px;\">✉️</span> <a href=\"mailto:info@rehace.es\" style=\"color: rgba(255,255,255,0.65); text-decoration: none;\">info@rehace.es</a></p><p style=\"margin-top: 12px;\"><span style=\"color: #01A4BE; margin-right: 10px;\">🕐</span> L–V: 9:00 – 20:00</p>",
+                    "align": "left",
+                    "text_color": "rgba(255,255,255,0.65)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Figtree",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_line_height": {"unit": "em", "size": 1.8}
+                  }
+                },
+                {
+                  "id": "footer-cta-btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Pedir Cita →",
+                    "align": "left",
+                    "size": "sm",
+                    "button_type": "default",
+                    "link": {"url": "#", "is_external": false, "nofollow": false},
+                    "background_color": "#01A4BE",
+                    "button_text_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_font_weight": "700",
+                    "border_radius": {"unit": "px", "size": 50},
+                    "button_padding": {"unit": "px", "top": 12, "right": 24, "bottom": 12, "left": 24},
+                    "hover_color": "#FFFFFF",
+                    "button_background_hover_color": "#02C0DD",
+                    "hover_animation": "grow"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footer-bottom-section",
+          "elType": "section",
+          "settings": {
+            "content_width": {"unit": "px", "size": 1280},
+            "structure": "10",
+            "gap": "extended",
+            "padding": {"unit": "px", "top": 25, "right": 0, "bottom": 25, "left": 0},
+            "margin": {"unit": "px", "top": 0, "right": 0, "bottom": 0, "left": 0}
+          },
+          "elements": [
+            {
+              "id": "footer-copyright-col",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50,
+                "padding": {"unit": "px", "top": 0, "right": 20, "bottom": 0, "left": 0}
+              },
+              "elements": [
+                {
+                  "id": "footer-copyright",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "© 2026 REHACE Centro de Neurorehabilitación · Majadahonda, Madrid",
+                    "align": "left",
+                    "text_color": "rgba(255,255,255,0.28)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Figtree",
+                    "typography_font_size": {"unit": "px", "size": 13}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-legal-col",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50,
+                "padding": {"unit": "px", "top": 0, "right": 0, "bottom": 0, "left": 20}
+              },
+              "elements": [
+                {
+                  "id": "footer-legal-links",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {"text": "Política de privacidad", "link": {"url": "/politica-privacidad"}},
+                      {"text": "Aviso legal", "link": {"url": "/aviso-legal"}},
+                      {"text": "Cookies", "link": {"url": "/politica-de-cookies-ue"}}
+                    ],
+                    "space_between": {"unit": "px", "size": 24},
+                    "layout": "inline",
+                    "icon_color": "rgba(255,255,255,0.28)",
+                    "icon_size": {"unit": "px", "size": 12},
+                    "text_color": "rgba(255,255,255,0.28)",
+                    "text_color_hover": "#02C0DD",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Figtree",
+                    "typography_font_size": {"unit": "px", "size": 13},
+                    "align": "right",
+                    "show_divider": "",
+                    "icon_list_style": "none"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

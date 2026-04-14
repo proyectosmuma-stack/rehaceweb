@@ -1,0 +1,106 @@
+[
+  {
+    "id": "hero-section",
+    "elType": "section",
+    "settings": {
+      "background_background": "classic",
+      "background_image": {
+        "url": "https://rehace.es/wp-content/uploads/2026/04/hero_neuro_rehab_center.jpg"
+      },
+      "background_position": "center center",
+      "background_size": "cover",
+      "background_overlay_background": "gradient",
+      "background_overlay_color": "rgba(255,255,255,0.98)",
+      "background_overlay_color_b": "rgba(255,255,255,0.0)",
+      "background_overlay_gradient_angle": { "unit": "deg", "size": 110 },
+      "height": "min-height",
+      "custom_height": { "unit": "vh", "size": 95 },
+      "content_position": "middle",
+      "padding": { "unit": "rem", "top": 7, "right": 2, "bottom": 10, "left": 2 }
+    },
+    "elements": [
+      {
+        "id": "hero-row",
+        "elType": "column",
+        "settings": { "_column_size": 100 },
+        "elements": [
+          {
+            "id": "hero-inner-section",
+            "elType": "section",
+            "isInner": true,
+            "settings": { "content_width": { "unit": "px", "size": 1280 } },
+            "elements": [
+              {
+                "id": "col-hero-content",
+                "elType": "column",
+                "settings": { "_column_size": 60 },
+                "elements": [
+                  {
+                    "id": "hero-eyebrow",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                      "html": "<div style=\"display:inline-flex;align-items:center;gap:.5rem;background:rgba(1,164,190,0.12);color:#01A4BE;padding:.4rem 1.1rem;border-radius:50px;font-family:'Outfit',sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:1.4rem;\">Rehabilitación Neurológica · Majadahonda</div>"
+                    }
+                  },
+                  {
+                    "id": "hero-title",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                      "title": "Recupera tu <em style=\"color:#01A4BE;font-style:normal;\">autonomía</em> con el equipo que te entiende",
+                      "header_size": "h1",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Outfit",
+                      "typography_font_weight": "900",
+                      "typography_font_size": { "unit": "rem", "size": 3.8 },
+                      "typography_line_height": { "unit": "em", "size": 1.1 },
+                      "title_color": "#003366",
+                      "_margin": { "unit": "px", "top": 0, "right": 0, "bottom": 24, "left": 0 }
+                    }
+                  },
+                  {
+                    "id": "hero-desc",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                      "editor": "<p>Tratamos a niños y adultos con lesiones neurológicas utilizando las terapias más avanzadas y un enfoque centrado en la persona y su familia.</p>",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Figtree",
+                      "typography_font_size": { "unit": "rem", "size": 1.1 },
+                      "typography_line_height": { "unit": "em", "size": 1.6 },
+                      "text_color": "#3D5166",
+                      "_margin": { "unit": "px", "top": 0, "right": 0, "bottom": 40, "left": 0 }
+                    }
+                  },
+                  {
+                    "id": "hero-buttons",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                      "html": "<div style=\"display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;\"><a href=\"#cita\" style=\"background:#01A4BE;color:#fff;padding:1.1rem 2.8rem;border-radius:50px;font-family:'Outfit',sans-serif;font-weight:700;font-size:.95rem;text-decoration:none;box-shadow:0 12px 35px rgba(1,164,190,0.35);\">Solicitar Valoración Gratuita</a><a href=\"#tratamos\" style=\"background:transparent;color:#003366;border:2px solid #003366;padding:1.1rem 2.8rem;border-radius:50px;font-family:'Outfit',sans-serif;font-weight:700;font-size:.95rem;text-decoration:none;\">Ver especialidades →</a></div>"
+                    }
+                  },
+                  {
+                    "id": "hero-stats",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                      "html": "<div style=\"display:flex;gap:3rem;margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(0,51,102,0.15);\"><div style=\"display:flex;flex-direction:column;\"><span style=\"color:#003366;font-family:'Outfit',sans-serif;font-weight:900;font-size:2.2rem;\">+500</span><span style=\"color:#7A90A4;font-family:'Figtree',sans-serif;font-size:.85rem;\">Pacientes tratados</span></div><div style=\"display:flex;flex-direction:column;\"><span style=\"color:#003366;font-family:'Outfit',sans-serif;font-weight:900;font-size:2.2rem;\">4</span><span style=\"color:#7A90A4;font-family:'Figtree',sans-serif;font-size:.85rem;\">Especialidades clínicas</span></div><div style=\"display:flex;flex-direction:column;\"><span style=\"color:#003366;font-family:'Outfit',sans-serif;font-weight:900;font-size:2.2rem;\">10+</span><span style=\"color:#7A90A4;font-family:'Figtree',sans-serif;font-size:.85rem;\">Años de experiencia</span></div></div>"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "col-hero-empty",
+                "elType": "column",
+                "settings": { "_column_size": 40 },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "f8",
+    "elType": "section",
+    "settings": {
+      "padding": {
+        "unit": "px",
+        "top": 120,
+        "right": 0,
+        "bottom": 120,
+        "left": 0
+      }
+    },
+    "elements": [
+      {
+        "id": "c3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "w3",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<style>.why-container{display:flex;gap:5rem;max-width:1280px;margin:0 auto;align-items:center}.why-img-col{flex:1;position:relative}.why-content-col{flex:1}.main-img{width:100%;border-radius:24px;box-shadow:0 40px 80px rgba(0,0,0,0.1)}.badge-flotante{position:absolute;bottom:40px;right:-30px;background:#003366;color:white;padding:2rem;border-radius:16px;box-shadow:0 20px 40px rgba(0,51,102,0.3)}.badge-flotante span{display:block;font-family:'Outfit',sans-serif;font-weight:900;font-size:2.5rem;color:#01A4BE;line-height:1}.why-list{list-style:none;padding:0;margin:3rem 0}.why-list li{padding-left:2rem;border-left:3px solid #01A4BE;margin-bottom:2rem;font-family:'Figtree',sans-serif}.why-list li strong{display:block;font-family:'Outfit',sans-serif;color:#003366;font-size:1.2rem}</style><div class='why-container'><div class='why-img-col'><img src='https://rehace.es/wp-content/uploads/2026/04/rehab_center_modern.png' class='main-img'><div class='badge-flotante'><span>+500</span><p>Pacientes tratados</p></div></div><div class='why-content-col'><span class='hero-eyebrow-text'>M\u00e1s que una cl\u00ednica</span><h2 style=\"font-family:'Outfit',sans-serif;font-weight:900;font-size:3.2rem;color:#003366;margin-top:1rem;line-height:1.1\">\u00bfPor qu\u00e9 elegir REHACE?</h2><ul class='why-list'><li><strong>Equipo Multidisciplinar</strong><span>Trabajamos de forma coordinada por tu meta.</span></li><li><strong>Tratamiento Personalizado</strong><span>Dise\u00f1amos un plan basado en tu situaci\u00f3n real.</span></li><li><strong>Reevaluaci\u00f3n Continua</strong><span>Medimos cada paso para asegurar el progreso.</span></li></ul><a href='#' class='btn-rehace-primary'>Conoce a nuestro equipo</a></div></div>"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,318 @@
+<style>
+/* REHACE Footer Styles */
+.rehace-footer {
+    background: #00203D;
+    padding: 0;
+    font-family: 'Figtree', 'Segoe UI', sans-serif;
+}
+.rehace-footer * {
+    box-sizing: border-box;
+}
+.rehace-footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 32px 0;
+}
+.rehace-footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+/* Columnas */
+.rehace-col-brand { flex: 1.8; min-width: 260px; }
+.rehace-col { flex: 1; min-width: 180px; }
+.rehace-col-contact { flex: 1.2; min-width: 280px; }
+/* Logo */
+.rehace-logo {
+    height: 44px;
+    margin-bottom: 20px;
+    filter: brightness(0) invert(1);
+}
+.rehace-desc {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    line-height: 1.75;
+    margin-bottom: 24px;
+    max-width: 300px;
+}
+/* Social Icons */
+.rehace-socials {
+    display: flex;
+    gap: 10px;
+}
+.rehace-social {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0.55);
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s;
+}
+.rehace-social:hover {
+    background: #01A4BE;
+    border-color: #01A4BE;
+    color: white;
+}
+/* Títulos de columna */
+.rehace-col-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(1,164,190,0.35);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rehace-col-title::before {
+    content: '';
+    width: 18px;
+    height: 2px;
+    background: #01A4BE;
+    border-radius: 2px;
+}
+/* Enlaces */
+.rehace-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.rehace-links li {
+    margin-bottom: 10px;
+}
+.rehace-links a {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+.rehace-links a::before {
+    content: '›';
+    color: #01A4BE;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.rehace-links a:hover {
+    color: #02C0DD;
+    padding-left: 4px;
+}
+.rehace-links a:hover::before {
+    opacity: 1;
+}
+/* Card de contacto */
+.rehace-contact-card {
+    background: rgba(1,164,190,0.1);
+    border-radius: 20px;
+    padding: 24px;
+    border: 1px solid rgba(1,164,190,0.25);
+}
+.rehace-contact-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(1,164,190,0.35);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rehace-contact-title::before {
+    content: '';
+    width: 18px;
+    height: 2px;
+    background: #01A4BE;
+    border-radius: 2px;
+}
+.rehace-contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: rgba(255,255,255,0.65);
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.rehace-contact-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(1,164,190,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 14px;
+}
+.rehace-contact-item a {
+    color: rgba(255,255,255,0.65);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.rehace-contact-item a:hover {
+    color: #02C0DD;
+}
+/* Botón CTA */
+.rehace-cta-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background: #01A4BE;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.rehace-cta-btn:hover {
+    background: #02C0DD;
+    transform: translateY(-2px);
+}
+/* Footer Bottom */
+.rehace-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 24px 0;
+}
+.rehace-copyright {
+    color: rgba(255,255,255,0.28);
+    font-size: 13px;
+}
+.rehace-legal-links {
+    display: flex;
+    gap: 24px;
+}
+.rehace-legal-links a {
+    color: rgba(255,255,255,0.28);
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.rehace-legal-links a:hover {
+    color: #02C0DD;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .rehace-footer-inner {
+        padding: 60px 20px 0;
+    }
+    .rehace-footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .rehace-col-brand,
+    .rehace-col,
+    .rehace-col-contact {
+        flex: 1 1 100%;
+        min-width: auto;
+    }
+    .rehace-footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .rehace-legal-links {
+        justify-content: center;
+    }
+}
+</style>
+
+<div class="rehace-footer">
+    <div class="rehace-footer-inner">
+        <div class="rehace-footer-top">
+            <!-- Brand Column -->
+            <div class="rehace-col-brand">
+                <img src="https://rehace.es/wp-content/uploads/elementor/thumbs/logo-rehace-color-rcv0eee8zplo5nag58v86h0465dillryzgmzuhy9z4.png" alt="REHACE" class="rehace-logo">
+                <p class="rehace-desc">Centro especializado en rehabilitación neurológica en Majadahonda, Madrid. Nace desde la pasión y la experiencia familiar para devolverte la libertad.</p>
+                <div class="rehace-socials">
+                    <a href="#" class="rehace-social" aria-label="Facebook">f</a>
+                    <a href="#" class="rehace-social" aria-label="Instagram">in</a>
+                    <a href="#" class="rehace-social" aria-label="YouTube">▶</a>
+                    <a href="#" class="rehace-social" aria-label="LinkedIn">Li</a>
+                </div>
+            </div>
+            
+            <!-- Especialidades -->
+            <div class="rehace-col">
+                <h4 class="rehace-col-title">Especialidades</h4>
+                <ul class="rehace-links">
+                    <li><a href="#">Ictus y Daño Cerebral</a></li>
+                    <li><a href="#">Parkinson</a></li>
+                    <li><a href="#">Alzheimer y Demencias</a></li>
+                    <li><a href="#">Esclerosis Múltiple</a></li>
+                    <li><a href="#">TEA y TDAH (Niños)</a></li>
+                </ul>
+            </div>
+            
+            <!-- Empresa -->
+            <div class="rehace-col">
+                <h4 class="rehace-col-title">Empresa</h4>
+                <ul class="rehace-links">
+                    <li><a href="#">¿Cómo lo hacemos?</a></li>
+                    <li><a href="#">¿Quiénes somos?</a></li>
+                    <li><a href="#">Nuestro equipo</a></li>
+                    <li><a href="#">Terapia a domicilio</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contacto -->
+            <div class="rehace-col-contact">
+                <div class="rehace-contact-card">
+                    <h4 class="rehace-contact-title">Contacto</h4>
+                    <div class="rehace-contact-item">
+                        <span class="rehace-contact-icon">📍</span>
+                        <span>C/ Ejemplo 12, 28220<br>Majadahonda, Madrid</span>
+                    </div>
+                    <div class="rehace-contact-item">
+                        <span class="rehace-contact-icon">📞</span>
+                        <a href="tel:+34915481732">915 481 732</a>
+                    </div>
+                    <div class="rehace-contact-item">
+                        <span class="rehace-contact-icon">✉️</span>
+                        <a href="mailto:info@rehace.es">info@rehace.es</a>
+                    </div>
+                    <div class="rehace-contact-item">
+                        <span class="rehace-contact-icon">🕐</span>
+                        <span>L–V: 9:00 – 20:00</span>
+                    </div>
+                    <a href="#" class="rehace-cta-btn">Pedir Cita →</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Bar -->
+        <div class="rehace-footer-bottom">
+            <p class="rehace-copyright">© 2026 REHACE Centro de Neurorehabilitación · Majadahonda, Madrid</p>
+            <div class="rehace-legal-links">
+                <a href="/politica-privacidad">Política de privacidad</a>
+                <a href="/aviso-legal">Aviso legal</a>
+                <a href="/politica-de-cookies-ue">Cookies</a>
+            </div>
+        </div>
+    </div>
+</div>
