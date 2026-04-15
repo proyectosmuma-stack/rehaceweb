@@ -14,9 +14,71 @@
     },
     {
       "id": 10,
-      "title": "Refactoring de mantenibilidad (Widgets Nativos Elementor)",
+      "title": "T10: Refactoring de mantenibilidad (Widgets Nativos Elementor)",
       "status": "COMPLETED",
       "completed_at": "2026-04-15"
+    },
+    {
+      "id": 11,
+      "title": "T11: Hero — imagen de fondo con overlay blanco izquierda",
+      "status": "PENDING",
+      "assigned_to": "Frontend_Hero",
+      "priority": "HIGH",
+      "ref_asset": "rehab_center_modern (WP ID: 758)",
+      "instructions": "Aplicar imagen WP ID 758 como fondo de sección Hero en Elementor. Posición: centro-derecha. Añadir overlay CSS: gradiente blanco desde izquierda (rgba(255,255,255,0.92)) hasta transparente (derecha). Verificar que el texto h1 sea legible sobre la imagen."
+    },
+    {
+      "id": 12,
+      "title": "T12: Especialidades — imágenes en cards de tratamientos",
+      "status": "PENDING",
+      "assigned_to": "Frontend_Content",
+      "priority": "HIGH",
+      "ref_assets": {
+        "Ictus y Daño Cerebral": "WP ID 753",
+        "Parkinson": "WP ID 754",
+        "Alzheimer y Demencias": "WP ID 755",
+        "Esclerosis Múltiple": "WP ID 757",
+        "TEA (niños)": "WP ID 756",
+        "TDAH y Lenguaje": "WP ID 756"
+      },
+      "instructions": "En cada card de especialidades añadir widget Image encima del contenido. Ratio 16:9, object-fit cover, border-radius 12px arriba. Ver boceto index.html clase prog-card-img como referencia."
+    },
+    {
+      "id": 13,
+      "title": "T13: Why REHACE — split layout 50/50 con fotos apiladas",
+      "status": "PENDING",
+      "assigned_to": "Frontend_Hero",
+      "priority": "HIGH",
+      "ref_assets": {
+        "img_main": "WP ID 758 (rehab_center_modern)",
+        "img_accent": "WP ID 757 (therapy_session_physio)"
+      },
+      "instructions": "Columna izquierda: imagen principal (ID 758) con imagen secundaria (ID 757) superpuesta en esquina inferior-derecha al 60% de tamaño. Badge flotante '+500 Pacientes tratados' sobre las fotos. Columna derecha: texto y features list ya existente. Ver clase img-stack en index.html."
+    },
+    {
+      "id": 14,
+      "title": "T14: Terapia a domicilio — imagen en grid 50/50",
+      "status": "PENDING",
+      "assigned_to": "Frontend_Content",
+      "priority": "HIGH",
+      "ref_asset": "therapy_home_visit (WP ID: 759)",
+      "instructions": "Sección domicilio debe ser grid de 2 columnas: izquierda imagen ID 759 a altura completa (min-height 480px, object-fit cover), derecha texto actual. Fondo navy oscuro (#0A2540). Ver clase home-visit-grid en index.html."
+    },
+    {
+      "id": 15,
+      "title": "T15: Eliminar o confirmar sección Equipo (fuera de spec)",
+      "status": "PENDING",
+      "assigned_to": "Mumabot",
+      "priority": "HIGH",
+      "instructions": "La sección con tarjetas de 'Raquel Ramos / Directora' y miembros del equipo NO existe en el boceto index.html. Fue añadida fuera de spec. OPCIÓN A: Confirmar con el cliente si debe mantenerse. OPCIÓN B: Eliminarla del editor Elementor de la página 665. Bloqueante para el QA final."
+    },
+    {
+      "id": 16,
+      "title": "T16: Eliminar sección Disciplinas duplicada",
+      "status": "PENDING",
+      "assigned_to": "Mumabot",
+      "priority": "HIGH",
+      "instructions": "La sección Disciplinas (Fisioterapia, Logopedia, T.Ocupacional, Neuropsicología) aparece dos veces con estilos diferentes. Mantener únicamente la versión con cards de fondo navy oscuro e icono emoji grande. Eliminar el duplicado en Elementor página 665."
     }
   ]
 }
