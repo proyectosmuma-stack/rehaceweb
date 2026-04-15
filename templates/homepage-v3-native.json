@@ -1,0 +1,11 @@
+[
+  {
+    "id": "rehace-responsive-v1",
+    "elType": "widget",
+    "widgetType": "html",
+    "settings": {
+      "html": "\n<style id=\"rehace-responsive-v1\">\n\n/* TOPBAR */\n@media (max-width: 768px) {\n  .topbar-left { display: none !important; }\n}\n\n/* TIPOGRAF\u00cdA GOOGLE FONTS */\n@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Figtree:wght@400;500;600&display=swap');\n\n</style>\n"
+    },
+    "elements": []
+  }
+]

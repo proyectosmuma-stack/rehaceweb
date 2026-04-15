@@ -1,6 +1,12 @@
 {
   "tasks": [
     {
+      "id": 8,
+      "title": "T5: Responsive completo",
+      "status": "COMPLETED",
+      "completed_at": "2026-04-15"
+    },
+    {
       "id": 10,
       "title": "Refactoring de mantenibilidad (Widgets Nativos Elementor)",
       "status": "COMPLETED",
