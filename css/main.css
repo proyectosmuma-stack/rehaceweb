@@ -247,11 +247,11 @@ a { text-decoration: none; color: inherit; }
     background: var(--white);
     overflow: hidden;
 }
-.specialties-bg {
+.specialties-bg, .hero-bg {
     position: absolute; inset: 0;
-    opacity: 0.035; z-index: 0; pointer-events: none;
+    opacity: 0.12; z-index: 0; pointer-events: none;
 }
-.specialties-bg canvas { width: 100%; height: 100%; }
+.specialties-bg canvas, .hero-bg canvas { width: 100%; height: 100%; }
 .specialties .wrap { position: relative; z-index: 5; }
 
 .tab-controls {

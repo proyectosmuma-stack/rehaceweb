@@ -76,7 +76,8 @@ function initNeuronCanvas(canvasId, dotColor = 'rgba(1,164,190,0.6)', lineOpacit
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    initNeuronCanvas('neuron-canvas-specialties', 'rgba(1,164,190,0.5)', 0.4);
+    initNeuronCanvas('neuron-canvas-hero', 'rgba(255,255,255,0.4)', 0.5);
+    initNeuronCanvas('neuron-canvas-specialties', 'rgba(1,164,190,0.6)', 0.4);
     
     /* Check if neuron-canvas-steps exists in HTML */
     if (document.getElementById('neuron-canvas-steps')) {
