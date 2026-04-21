@@ -8,7 +8,7 @@
       ],
       "env": {
         "N8N_BASE_URL": "https://n8n.mumaweb.com",
-        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhODM3MjcyMy0wODhkLTQ0MWQtYTc0OS0zNjBmMGVhYjQyOTUiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwianRpIjoiMGNjNzEyYWYtMWE4OC00YWQ5LTkzMGEtNTA1ZWY4NGM3MDZhIiwiaWF0IjoxNzcxNzY3NzYwfQ.RHOVLkZCyX9rqXcrdlX3X8Rg1cMYtmdXqDp3MnOHrEo"
+        "N8N_API_KEY": "YOUR_N8N_API_KEY_HERE"
       }
     },
     "notion-mcp-server": {
@@ -18,7 +18,7 @@
         "@notionhq/notion-mcp-server"
       ],
       "env": {
-        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer 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\", \"Notion-Version\": \"2022-06-28\"}"
+        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer YOUR_NOTION_TOKEN_HERE\"}"
       }
     }
   }
